@@ -1,0 +1,53 @@
+@import 'shared/colors.scss';
+@import 'shared/fonts.scss';
+
+.collection {
+  &__container {
+    border-radius: 16px;
+    background-color: $gray;
+    padding: 24px;
+    max-width: 600px;
+    color: $white;
+    font-size: $font-size-small;
+  }
+
+  &__coins {
+    margin: 16px 0;
+  }
+
+  &__coin {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+
+  &__ticker {
+    display: block;
+    margin-right: 6px;
+  }
+
+  &__address {
+    color: $pink-light;
+    font-size: $font-size-tiny;
+  }
+
+  &__subtitle {
+    margin: 40px 0;
+  }
+}
+
+@media only screen and (min-width: 568px) {
+  .collection {
+    &__container,
+    &__address {
+      font-size: $font-size-regular;
+    }
+
+    &__ticker {
+      display: inline;
+    }
+
+    &__coin {
+      margin-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+@import 'shared/colors.scss';
+@import 'shared/fonts.scss';
+
+$bar-height: 43px;
+
+.pledge-bar {
+  position: relative;
+  border-radius: 16px;
+  background-color: $highlight-secondary;
+  height: $bar-height;
+  overflow: hidden;
+
+  &__progress {
+    transition: width 1.25s;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px $shadow;
+    background: linear-gradient(
+      90deg,
+      $highlight-primary 0%,
+      $highlight-secondary 100%
+    );
+    height: $bar-height;
+  }
+
+  &__title {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    margin: 0;
+    padding: 0 15px;
+    height: $bar-height;
+    font-size: $font-size-regular;
+  }
+}

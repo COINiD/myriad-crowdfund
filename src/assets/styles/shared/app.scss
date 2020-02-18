@@ -1,0 +1,31 @@
+@import 'colors.scss';
+@import 'fonts.scss';
+
+body {
+  margin: 0;
+  background-color: $white;
+  padding: 0;
+  line-height: 1.4;
+  color: $black;
+  font-family: $font-family;
+  font-size: $font-size-regular;
+}
+
+.container {
+  margin: 0 24px 40px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+a {
+  transition: opacity 0.15s ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}

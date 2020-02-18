@@ -1,0 +1,19 @@
+$font-size-large: 79px;
+$font-size-medium: 24px;
+$font-size-regular: 18px;
+$font-size-small: 14px;
+$font-size-tiny: 12px;
+
+$font-family: Inter UI, sans-serif;
+
+h2 {
+  margin: 0.9em 0;
+  font-size: $font-size-regular;
+  font-weight: bold;
+}
+
+h3 {
+  margin: 0;
+  font-size: $font-size-medium;
+  font-weight: bold;
+}

@@ -1,0 +1,18 @@
+@import "shared/colors.scss";
+@import "shared/fonts.scss";
+
+.pledge {
+  &__notice {
+    display: inline-block;
+    margin-top: 0.7em;
+    line-height: 1.6;
+    color: $gray-light;
+    font-size: $font-size-tiny;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .pledge {
+    max-width: 500px;
+  }
+}

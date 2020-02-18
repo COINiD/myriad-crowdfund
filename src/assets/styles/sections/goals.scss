@@ -1,0 +1,12 @@
+.goals {}
+
+@media only screen and (min-width: 768px) {
+  .goals {
+    &__container {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+    };
+  }
+}
