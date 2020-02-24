@@ -1,13 +1,13 @@
-@import "shared/colors.scss";
-@import "shared/fonts.scss";
+@import 'shared/colors.scss';
+@import 'shared/fonts.scss';
 
 .pledge {
   &__notice {
     display: inline-block;
     margin-top: 0.7em;
     line-height: 1.6;
-    color: $gray-light;
-    font-size: $font-size-tiny;
+    color: $gray;
+    font-size: $font-size-small;
   }
 }
 

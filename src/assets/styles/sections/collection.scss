@@ -4,10 +4,10 @@
 .collection {
   &__container {
     border-radius: 16px;
-    background-color: $gray;
+    background-color: $highlight-secondary;
     padding: 24px;
     max-width: 600px;
-    color: $white;
+    color: $black;
     font-size: $font-size-small;
   }
 
@@ -26,8 +26,9 @@
   }
 
   &__address {
-    color: $pink-light;
+    color: $purple;
     font-size: $font-size-tiny;
+    font-weight: normal;
   }
 
   &__subtitle {

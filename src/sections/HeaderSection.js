@@ -4,8 +4,7 @@ import '../assets/styles/sections/header.css'
 const HeaderSection = () => (
   <div className="header">
     <div className="header__container container">
-      <h1 className="header__title">Myriadcoin website</h1>
-      <h3>Crowdfunding campaign</h3>
+      <h1 className="header__title">New Myriadcoin website</h1>
       <p className="header__intro">
         If the goals are met we will design, develop and release a new version
         of Myriadcoins website.
