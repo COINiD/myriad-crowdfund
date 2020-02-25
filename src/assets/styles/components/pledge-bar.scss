@@ -14,12 +14,8 @@ $bar-height: 43px;
     transition: width 1.25s;
     border-radius: 16px;
     box-shadow: 0 2px 12px $shadow;
-    background: linear-gradient(
-      212.98deg,
-      $orange -4.96%,
-      $pink 42.67%,
-      $purple 94.11%
-    );
+    background: linear-gradient(90deg, $purple 0%, $purple 35%, $orange 100%);
+
     height: $bar-height;
   }
 
