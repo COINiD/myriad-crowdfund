@@ -21,7 +21,7 @@ class App extends PureComponent {
       BTC: 0.0,
       XMY: 0.0,
     },
-    endDate: moment.tz('2020-03-30 12:00', 'Europe/Stockholm'),
+    endDate: moment.tz('2020-05-31 12:00', 'Europe/Stockholm'),
     pledged: 0,
     goal: 3,
     goals: [
