@@ -6,8 +6,8 @@ const HeaderSection = () => (
     <div className="header__container container">
       <h1 className="header__title">New Myriadcoin website</h1>
       <p className="header__intro">
-        If the goals are met we will design, develop and release a new version
-        of Myriadcoins website.
+        If the goal are met we will design, develop and release a new version of
+        Myriadcoins website.
       </p>
     </div>
   </div>

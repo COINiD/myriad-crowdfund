@@ -11,10 +11,10 @@ import './assets/styles/shared/app.css'
 class App extends PureComponent {
   state = {
     coins: [
-      { ticker: 'BTC', address: '34Zmzk5jJU5AhQFzqyS72BEDx9ZTGa58X6' },
+      { ticker: 'BTC', address: '3NxbXLra7dYwP4GHytrkKHztUrrNYjmDdP' },
       {
         ticker: 'XMY',
-        address: 'MPYeuSbY6EUVCqkH1pPJVkZbBUp7fc4ATP',
+        address: '4rwU3d9xGY4dBiWe3dULdoQNznMjuCooyq',
       },
     ],
     balances: {
@@ -26,29 +26,12 @@ class App extends PureComponent {
     goal: 3,
     goals: [
       {
-        amount: 0.5,
-        title: 'Goal 1',
-        includes: ['New design', 'New website'],
-      },
-      {
-        amount: 1,
-        title: 'Goal 2',
+        amount: 1.5,
+        title: 'Goal',
         includes: [
-          'New design',
-          'New website',
-          'Multi language support',
-          '2 Blog posts',
-        ],
-      },
-      {
-        amount: 2,
-        title: 'Goal 3',
-        includes: [
-          'New design',
-          'New website',
-          'Multi language support',
-          '4 Blog posts',
-          'Promotion material',
+          'New website design',
+          'Website development',
+          'Support for multiple languages. Integration with Gitlocalize.',
         ],
       },
     ],

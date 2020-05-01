@@ -18,9 +18,8 @@ class GoalsSection extends PureComponent {
 
     return (
       <div className="goals container">
-        <h2 className="goals__title">Goals</h2>
         <div className="goals__container">
-          {goals.map((goal) => {
+          {goals.map(goal => {
             const { amount, includes, title } = goal
             return (
               <Goal

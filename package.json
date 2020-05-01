@@ -2,7 +2,7 @@
   "name": "myriad.coinid",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fund-myriad.coinid.org",
+  "homepage": "https://crowdfund-myriad.coinid.org",
   "dependencies": {
     "lodash-es": "^4.17.11",
     "moment": "^2.22.2",
