@@ -29,9 +29,11 @@ class App extends PureComponent {
         amount: 1.5,
         title: 'Goal',
         includes: [
-          'New website design',
-          'Website development',
+          'New website design.',
+          'Built using modern frameworks (Gatsby.js and Tailwind CSS).',
           'Support for multiple languages. Integration with Gitlocalize.',
+          'Statically hosted on Github pages or similar services.',
+          'Continuous community participation in the process.',
         ],
       },
     ],
