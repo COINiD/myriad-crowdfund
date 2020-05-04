@@ -35,7 +35,7 @@ class App extends PureComponent {
           'Statically hosted on Github pages or similar services.',
           'Initial content production.',
           'Digital promotion material.',
-          'Provide framework for continuous community participation and collaboration.',
+          'Provide framework for community participation and collaboration.',
         ],
       },
     ],
