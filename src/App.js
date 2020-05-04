@@ -34,6 +34,8 @@ class App extends PureComponent {
           'Support for multiple languages. Integration with Gitlocalize.',
           'Statically hosted on Github pages or similar services.',
           'Continuous community participation in the process.',
+          'Initial content production.',
+          'Digital promotion material; logotype, avatar image for social media and similar.',
         ],
       },
     ],
