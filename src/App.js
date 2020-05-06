@@ -93,10 +93,17 @@ class App extends PureComponent {
 
     return (
       <div className="wrapper">
-        <HeaderSection />
-        <PledgeSection goal={goal} pledged={pledged} endDate={endDate} />
-        <GoalsSection goals={goals} pledged={pledged} />
-        <CollectionSection coins={coins} insights={this.insights} />
+        <div class="content-container">
+          <div class="content">
+            <HeaderSection />
+            <PledgeSection goal={goal} pledged={pledged} endDate={endDate} />
+            <GoalsSection goals={goals} pledged={pledged} />
+            <CollectionSection coins={coins} insights={this.insights} />
+          </div>
+        </div>
+        <div class="u-overflow-hidden">
+          <div class="device"></div>
+        </div>
       </div>
     )
   }

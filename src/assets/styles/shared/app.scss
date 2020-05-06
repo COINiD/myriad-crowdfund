@@ -17,9 +17,46 @@ body {
   margin: 0 24px 40px;
 }
 
+.device {
+  margin: 0 20px 40px;
+  background: url('/device.png') no-repeat;
+  background-position: center center;
+  background-size: contain;
+  width: calc(100% - 40px);
+  height: 290px;
+}
+
 .wrapper {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
-  max-width: 900px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .wrapper {
+    flex-direction: row;
+
+    > div {
+      width: 50%;
+    }
+  }
+
+  .content-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .device {
+    margin: 170px -40% 0 0;
+    background-position: top;
+    width: 140%;
+    height: 100%;
+    max-height: 70%;
+  }
+}
+
+.u-overflow-hidden {
+  overflow: hidden;
 }
 
 a {

@@ -18,6 +18,10 @@
   &__intro {
     font-size: $font-size-regular;
   }
+
+  &__title {
+    margin-top: 60px;
+  }
 }
 
 @media only screen and (min-width: 321px) {

@@ -16,9 +16,7 @@ class Goal extends PureComponent {
   }
 
   render() {
-    const {
-      title, includes, amount, pledged,
-    } = this.props
+    const { title, includes, amount, pledged } = this.props
 
     const completed = pledged >= amount
 
@@ -26,14 +24,25 @@ class Goal extends PureComponent {
       <div className="goal">
         <p className="goal__title">{title}</p>
         <div className="goal__amount-container">
-          <p className={['goal__amount', completed ? 'goal__amount--completed' : null].join(' ')}>
+          <p
+            className={[
+              'goal__amount',
+              completed ? 'goal__amount--completed' : null,
+            ].join(' ')}
+          >
             {`${amount} BTC`}
           </p>
-          {completed && <img src={checkbox} alt="Completed" className="goal__completed" />}
+          {completed && (
+            <img src={checkbox} alt="Completed" className="goal__completed" />
+          )}
         </div>
-        {includes.map((included, i) => (
-          <p key={i} className="goal__included">{`- ${included}`}</p>
-        ))}
+        <ul className="goal__list">
+          {includes.map((included, i) => (
+            <li key={i} className="goal__included">
+              {included}
+            </li>
+          ))}
+        </ul>
       </div>
     )
   }
