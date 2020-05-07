@@ -70,7 +70,9 @@ class App extends PureComponent {
     Promise.all(requests)
       .then(responses => Promise.all(responses.map(res => res.json())))
       .then(balances => {
-        const total = sum(balances.map(balance => Number(balance.balance)))
+        const total = sum(
+          balances.map(balance => Number(balance.unconfirmedBalance))
+        )
         return ticker !== 'BTC' ? this.convertToBTC(ticker, total) : total
       })
       .then(btcValue => {
